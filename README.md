@@ -134,12 +134,7 @@ class Main:
 
 ```
 
-
-```python
-import pandas as pd
-df = pd.read_csv('out/scraped_events.csv')
-df.tail()
-```
+## Part 1.2 Data Preprocessing
 ```python
 def get_price(price_str):
     #price_regexp = r"(?P<price>\d+)"
